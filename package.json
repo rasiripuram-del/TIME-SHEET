@@ -1,0 +1,16 @@
+{
+  "name": "timesheet-app",
+  "version": "1.0.0",
+  "description": "Small business timesheet app with per-user login and project/phase time entry",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1"
+  }
+}
